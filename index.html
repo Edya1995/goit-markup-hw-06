@@ -56,6 +56,14 @@
             </li>
           </ul>
         </address>
+        <button
+          class="heder-menu-btn menu-toggle"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="feader-menu-toggle" width="24" height="24">
+            <use href="./images/icons.svg#icon-solid-menu"></use></svg
+        ></button>
       </div>
     </header>
     <main>
@@ -420,7 +428,7 @@
       </div>
     </footer>
     <!-- Modal -->
-    <div class="backdrop is-open" data-modal>
+    <div class="backdrop" data-modal>
       <div class="modal">
         <button class="modal-close" type="button" data-modal-close>
           <svg class="modal-close-icon" width="8" height="8">
@@ -518,6 +526,61 @@
           <button class="modal-button send-button" type="submit">Send</button>
         </form>
       </div>
+    </div>
+
+    <!-- MOBILE MENU -->
+    <div class="menu-container">
+      <button class="mobile-menu-btn"
+        ><svg class="mobile-menu-icon" width="8" height="8">
+          <use href="./images/icons.svg#icon-close-black"></use></svg
+      ></button>
+      <ul class="mobile-menu-list list">
+        <li class="mobile-menu-item"
+          ><a href="" class="mobile-menu-link current link">Studio</a></li
+        >
+        <li class="mobile-menu-item"><a href="" class="mobile-menu-link link">Portfolio</a></li>
+        <li class="mobile-menu-item"><a href="" class="mobile-menu-link link">Contacts</a></li>
+      </ul>
+      <ul class="mobile-contacts list">
+        <li class="mobile-contacts-item"
+          ><a href="tel" class="mobile-contats-link accent link">+11000111-11-11</a></li
+        >
+        <li class="mobile-contacts-item"
+          ><a href="mailto:info@devstudio.com" class="mobile-contats-link link"
+            >info@devstudio.com</a
+          ></li
+        >
+      </ul>
+      <ul class="mobile-sotials list">
+        <li class="mobile-sotials-item">
+          <a href="" class="mobile-sotials-link link">
+            <svg class="mobile-sotials-icon" width="24" heigth="24">
+              <use href="./images/icons.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mobile-sotials-item">
+          <a href="" class="mobile-sotials-link link">
+            <svg class="mobile-sotials-icon" width="24" heigth="24">
+              <use href="./images/icons.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mobile-sotials-item">
+          <a href="" class="mobile-sotials-link link">
+            <svg class="mobile-sotials-icon" width="24" heigth="24">
+              <use href="./images/icons.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mobile-sotials-item">
+          <a href="" class="mobile-sotials-link link">
+            <svg class="mobile-sotials-icon" width="24" heigth="24">
+              <use href="./images/icons.svg#icon-linkedin"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
     </div>
   </body>
 </html>
