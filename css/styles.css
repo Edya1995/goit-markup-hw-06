@@ -1615,6 +1615,8 @@ textarea {
   fill: #f4f4fd;
 }
 .menu-container {
+  display: flex;
+  flex-direction: column;
   position: fixed;
   top: 0;
   left: 0;
@@ -1641,8 +1643,6 @@ textarea {
   border-radius: 50%;
   background-color: #e7e9fc;
 }
-.mobile-menu-icon {
-}
 .mobile-menu-list {
   margin-bottom: auto;
 }
@@ -1650,6 +1650,7 @@ textarea {
   margin-bottom: 40px;
 }
 .mobile-menu-link {
+  color: var(--NAVY-BLUE, #2e2f42);
   font-family: Roboto;
   font-size: 36px;
   font-style: normal;
@@ -1662,11 +1663,13 @@ textarea {
   color: var(--OCEAN, #404bbf);
 }
 .mobile-contacts {
+  margin-bottom: 48px;
 }
 .mobile-contacts-item:not(:last-child) {
   margin-bottom: 24px;
 }
 .mobile-contats-link {
+  color: var(--NAVY-BLUE, #2e2f42);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
